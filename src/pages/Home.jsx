@@ -26,16 +26,19 @@ export default function Home() {
     <h3 className="text-xl font-bold text-gray-800 mb-2">Fast ITR Filing</h3>
     <p className="text-gray-600">Expert-reviewed filings to maximize refunds and ensure compliance.</p>
   </Link>
+
   <Link to="/services/gst-filing" className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition text-left block">
     <FaFileInvoiceDollar className="text-4xl text-purple-600 mb-4" />
     <h3 className="text-xl font-bold text-gray-800 mb-2">GST Filing</h3>
     <p className="text-gray-600">Timely GST return filing with accuracy and expert guidance.</p>
   </Link>
+
   <Link to="/services/startup-registration" className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition text-left block">
     <FaBusinessTime className="text-4xl text-green-600 mb-4" />
     <h3 className="text-xl font-bold text-gray-800 mb-2">Startup Registration</h3>
     <p className="text-gray-600">Register your company, LLP or MSME with full legal support.</p>
   </Link>
+
   <Link to="/services/data-security" className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition text-left block">
     <FaUserShield className="text-4xl text-orange-500 mb-4" />
     <h3 className="text-xl font-bold text-gray-800 mb-2">Data Security</h3>
