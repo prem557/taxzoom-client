@@ -50,13 +50,14 @@ export default function Contact() {
         </button>
       </form>
 
-      <div className="mt-10 text-center text-gray-500">
-        Call us directly on <span className="text-blue-700 font-medium">0987654321</span>
-      </div>
-
-      <div className="mt-10 text-center text-gray-500">
-        Or email us directly at <span className="text-blue-700 font-medium">support@taxzoom.in</span>
-      </div>
+      <div className="text-center mt-8 space-y-2">
+  <p className="text-lg text-gray-700">
+    📞 Call us directly at <a href="tel:0987654321" className="text-blue-600 hover:underline">0987654321</a>
+  </p>
+  <p className="text-lg text-gray-700">
+    📧 Email us at <a href="mailto:support@taxzoom.in" className="text-blue-600 hover:underline">support@taxzoom.in</a>
+  </p>
+</div>
     </section>
   );
 }
