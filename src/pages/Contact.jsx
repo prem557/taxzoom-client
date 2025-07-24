@@ -51,6 +51,10 @@ export default function Contact() {
       </form>
 
       <div className="mt-10 text-center text-gray-500">
+        Call us directly on <span className="text-blue-700 font-medium">0987654321</span>
+      </div>
+
+      <div className="mt-10 text-center text-gray-500">
         Or email us directly at <span className="text-blue-700 font-medium">support@taxzoom.in</span>
       </div>
     </section>
