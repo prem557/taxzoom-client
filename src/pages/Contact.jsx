@@ -52,7 +52,7 @@ export default function Contact() {
 
       <div className="text-center mt-8 space-y-2">
   <p className="text-lg text-gray-700">
-    📞 Call us directly at <a href="tel:0987654321" className="text-blue-600 hover:underline">0987654321</a>
+    📞 Call us directly at <a href="tel:+918210097911" className="text-blue-600 hover:underline">8210097911</a>
   </p>
   <p className="text-lg text-gray-700">
     📧 Email us at <a href="mailto:support@taxzoom.in" className="text-blue-600 hover:underline">support@taxzoom.in</a>
