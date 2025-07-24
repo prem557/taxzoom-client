@@ -23,6 +23,7 @@ function App() {
             <Link to="/services" className="text-gray-700 hover:text-blue-600">Services</Link>
             <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
             <Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link>
+            <Link to="/otherservices" className="text-gray-700 hover:text-blue-600">Other Services</Link>
           </nav>
         </div>
       </header>

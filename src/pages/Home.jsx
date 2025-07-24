@@ -45,7 +45,9 @@ export default function Home() {
     <p className="text-gray-600">We encrypt and secure every client file like a fortress.</p>
   </Link>
 </div>
-
+<p className="mt-8 text-base text-blue-700">
+  Need MSME, FSSAI, or PF/ESI services? <Link to="/otherservices" className="font-semibold underline hover:text-blue-900">Explore other services</Link>
+</p>
       {/* Trust Badge */}
       <p className="mt-12 text-sm text-gray-500">
         Trusted by <strong>10,000+ clients</strong> across India 🇮🇳

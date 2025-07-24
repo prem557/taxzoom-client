@@ -8,6 +8,7 @@ import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import Layout from './components/Layout.jsx';
 import NotFound from './pages/NotFound.jsx';
+import OtherServices from './pages/OtherServices.jsx';
 
 // 🆕 Import new service pages
 import ITRFiling from './pages/ITRFiling.jsx';
@@ -34,6 +35,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/otherservices" element={<OtherServices />} />
         </Route>
       </Routes>
     </BrowserRouter>
