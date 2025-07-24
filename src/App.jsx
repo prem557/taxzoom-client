@@ -13,17 +13,25 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <div className="bg-gray-50 min-h-screen text-gray-900">
+    <div className="bg-gray-50 min-h-screen text-gray-900 font-sans">
       {/* Navbar */}
-      <header className="bg-white shadow sticky top-0 z-50">
+      <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-3xl md:text-4x1 font-extrabold tracking-wide text-orange-800">TaxZoom</h1>
+          
+          {/* Enhanced Logo */}
+          <Link to="/" className="flex items-center gap-2">
+            <span className="text-2xl sm:text-3xl font-extrabold tracking-tight text-blue-900">
+              <span className="text-orange-600">📄</span> Tax<span className="text-orange-600">Zoom</span>
+            </span>
+          </Link>
+
+          {/* Navigation */}
           <nav className="space-x-6 hidden md:flex">
-            <Link to="/" className="text-gray-700 hover:text-blue-600">Home</Link>
-            <Link to="/services" className="text-gray-700 hover:text-blue-600">Services</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link>
-            <Link to="/otherservices" className="text-gray-700 hover:text-blue-600">Other Services</Link>
+            <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
+            <Link to="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+            <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About</Link>
+            <Link to="/otherservices" className="text-gray-700 hover:text-blue-600 font-medium">Other Services</Link>
           </nav>
         </div>
       </header>
@@ -44,9 +52,9 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="text-center text-sm py-6 text-gray-500">
+      <footer className="text-center text-sm py-6 text-gray-500 border-t">
         🧾 TaxZoom is ALIVE with Tailwind + Vite!<br />
-        Welcome to your modern taxation website
+        Welcome to your modern taxation website 🚀
       </footer>
     </div>
   );
