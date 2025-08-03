@@ -6,6 +6,7 @@ function Navbar() {
         <li><a href="#services" className="hover:text-blue-500">Services</a></li>
         <li><a href="#contact" className="hover:text-blue-500">Contact</a></li>
         <li><a href="#about" className="hover:text-blue-500">About</a></li>
+        <li><a href="#otherservices" className="hover:text-blue-500">Other Services</a></li>
       </ul>
     </nav>
   );

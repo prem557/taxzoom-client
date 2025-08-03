@@ -10,6 +10,15 @@ import GSTFiling from './pages/GSTFiling';
 import StartupRegistration from './pages/StartupRegistration';
 import DataSecurity from './pages/DataSecurity';
 import NotFound from './pages/NotFound';
+import TDSReturn from './pages/TDSReturn';
+import MSMEUdyam from './pages/MSMEUdyam';
+import FSSAI from './pages/FSSAI';
+import PFRegistration from './pages/PFRegistration';
+import ESIRegistration from './pages/ESIRegistration';
+import Loans from './pages/Loans';
+import Insurance from './pages/Insurance';
+import OtherServices from './pages/OtherServices';
+
 
 function App() {
   return (
@@ -20,8 +29,8 @@ function App() {
           
           {/* Enhanced Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-2xl sm:text-3xl font-extrabold tracking-tight text-blue-900">
-              <span className="text-orange-600">📄</span> Tax<span className="text-orange-600">Zoom</span>
+            <span className="text-3xl sm:text-4xl font-black tracking-tight text-blue-900 flex items-center gap-2">
+            <span className="text-4xl">📄</span> <span className="text-orange-600">Tax</span>Zoom
             </span>
           </Link>
 
@@ -48,6 +57,14 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/services/tds-return" element={<TDSReturn />} />
+          <Route path="/services/msme-udyam-registration" element={<MSMEUdyamRegistration />} />
+          <Route path="/services/fssai" element={<FSSAI />} />
+          <Route path="/services/pf-registration" element={<PFRegistration />} />
+          <Route path="/services/esi-registration" element={<ESIRegistration />} />
+          <Route path="/services/loans" element={<Loans />} />
+          <Route path="/services/insurance" element={<Insurance />} />
+          <Route path="/otherservices" element={<OtherServices />} />
         </Routes>
       </main>
 
