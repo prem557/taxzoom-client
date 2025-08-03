@@ -11,7 +11,7 @@ import StartupRegistration from './pages/StartupRegistration';
 import DataSecurity from './pages/DataSecurity';
 import NotFound from './pages/NotFound';
 import TDSReturn from './pages/TDSReturn';
-import MSMEUdyam from './pages/MSMEUdyam';
+import MSMEUdyamRegistration from './pages/MSMEUdyam';
 import FSSAI from './pages/FSSAI';
 import PFRegistration from './pages/PFRegistration';
 import ESIRegistration from './pages/ESIRegistration';
