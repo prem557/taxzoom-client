@@ -23,7 +23,7 @@ export default function Home() {
         </p>
         <Link to="/services">
           <button className="bg-blue-700 hover:bg-blue-800 text-white font-semibold px-8 py-3 rounded-xl shadow-lg transition">
-            🚀 Explore Our Services
+             Explore Our Services
           </button>
         </Link>
       </div>
