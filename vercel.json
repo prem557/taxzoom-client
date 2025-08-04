@@ -3,3 +3,9 @@
     { "source": "/(.*)", "destination": "/" }
   ]
 }
+{
+  "rewrites": [
+    { "source": "/dummy-check", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
