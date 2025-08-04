@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/dummy-check", "destination": "/" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
