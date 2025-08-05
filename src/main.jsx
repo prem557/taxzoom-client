@@ -9,6 +9,7 @@ import About from './pages/About.jsx';
 import Layout from './components/Layout.jsx';
 import NotFound from './pages/NotFound.jsx';
 import OtherServices from './pages/OtherServices.jsx';
+import Loans from './pages/Loans.jsx';
 
 // 🆕 Import new service pages
 import ITRFiling from './pages/ITRFiling.jsx';
@@ -36,6 +37,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/otherservices" element={<OtherServices />} />
+          <Route path="/services/loans" element={<Loans />} />           
         </Route>
       </Routes>
     </BrowserRouter>

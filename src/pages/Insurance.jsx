@@ -6,9 +6,13 @@ export default function Insurance() {
         Choose from a variety of insurance options that suit your needs. We guide you end-to-end.
       </p>
       <ul className="list-disc ml-6 text-gray-600 space-y-2">
-        <li>Car & Bike Insurance</li>
-        <li>Health & Travel Insurance</li>
-        <li>Life Insurance Advisory</li>
+        <li>Bike Insurance</li>
+        <li>Car Insurance</li>
+        <li>Health Insurance</li>
+        <li>Life Insurance</li>
+        <li>Term Plan Insurance</li>
+        <li>Commercial vehicles used in Road Lines</li>
+         <li>Commercial vehicles used in Schools and Colleges</li>
       </ul>
     </section>
   );
