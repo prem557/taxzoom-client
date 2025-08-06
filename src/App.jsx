@@ -7,11 +7,15 @@ function App() {
       {/* Navbar */}
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="text-3xl sm:text-4xl font-black tracking-tight text-blue-900 flex items-center gap-2">
-              <span className="text-4xl">📄</span> <span className="text-orange-600">Tax</span>Zoom
-            </span>
-          </Link>
+          <Link to="/" className="flex items-center gap-3">
+  <img
+    src="/logo.png"
+    alt="TaxZoom Logo"
+    className="h-10 w-auto object-contain"
+  />
+  <span className="text-2xl sm:text-3xl font-bold text-orange-600">TaxZoom</span>
+</Link>
+
           <nav className="space-x-6 hidden md:flex">
             <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
             <Link to="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
