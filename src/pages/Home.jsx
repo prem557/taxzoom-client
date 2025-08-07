@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import {
   FaFileInvoiceDollar,
+  FaBusinessTime,
   FaUserShield,
+  FaBuilding,
+  FaCertificate,
   FaBriefcase,
   FaRupeeSign,
   FaShieldAlt,
@@ -20,9 +23,9 @@ export default function Home() {
         <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
           End-to-end support for all your tax, legal, and registration needs — trusted by thousands across India.
         </p>
-        <Link to="/services/itr-filing">
+        <Link to="/services">
           <button className="bg-blue-700 hover:bg-blue-800 text-white font-semibold px-8 py-3 rounded-xl shadow-lg transition">
-            Get Started with ITR Filing
+            Explore Our Services
           </button>
         </Link>
       </div>
@@ -63,9 +66,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* ✅ 1. Income Tax Filing */}
+      {/* ✅ Core Services */}
       <section className="space-y-10">
-        <h2 className="text-3xl font-bold text-center text-blue-800">Income Tax Filing</h2>
+        <h2 className="text-3xl font-bold text-center text-blue-800">Core Service Categories</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard
             icon={<FaFileInvoiceDollar />}
@@ -79,26 +82,30 @@ export default function Home() {
             description="Accurate TDS filing services for businesses, contractors, and freelancers."
             to="/services/tds-return"
           />
-        </div>
-      </section>
-
-      {/* ✅ 2. GST Filing & Registration */}
-      <section className="space-y-10">
-        <h2 className="text-3xl font-bold text-center text-blue-800">GST Filing & New Registration</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard
             icon={<FaBriefcase />}
             title="GST Services"
             description="Hassle-free GST registration, return filing, and compliance handled by experts."
             to="/services/gst-filing"
           />
-        </div>
-      </section>
-
-      {/* ✅ 3. Other Services */}
-      <section className="space-y-10">
-        <h2 className="text-3xl font-bold text-center text-blue-800">Other Services</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <ServiceCard
+            icon={<FaBuilding />}
+            title="MSME/Udyam Registration"
+            description="Get official recognition and benefits for your business under MSME."
+            to="/services/msme-udyam-registration"
+          />
+          <ServiceCard
+            icon={<FaCertificate />}
+            title="FSSAI Certification"
+            description="Apply for new FSSAI food license or renew it effortlessly."
+            to="/services/fssai"
+          />
+          <ServiceCard
+            icon={<FaUserShield />}
+            title="PF & ESI Registration"
+            description="Secure employee welfare compliance with PF and ESI registration."
+            to="/services/pf-registration"
+          />
           <ServiceCard
             icon={<FaRupeeSign />}
             title="Loan Services"
@@ -114,21 +121,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ✅ 4. About & Contact */}
+      {/* ✅ Other Services */}
       <section className="bg-gray-100 py-12 px-6 rounded-xl shadow-md">
         <div className="max-w-6xl mx-auto text-center space-y-6">
-          <h2 className="text-3xl font-bold text-blue-800">Know More About Us</h2>
-          <p className="text-gray-600">Learn more about our mission, vision, and how to reach us.</p>
-          <div className="flex flex-col md:flex-row justify-center gap-6 text-left">
+          <h2 className="text-3xl font-bold text-blue-800">Explore Other Key Services</h2>
+          <p className="text-gray-600">Important compliance & registration services for your growing business.</p>
+          <div className="grid md:grid-cols-2 gap-6 text-left">
             <OtherService
-              title="About Us"
-              to="/about"
-              desc="Get to know our values, journey, and the team behind TaxZoomIndia."
+              title="MSME / Udyam Registration"
+              to="/otherservices/msme-registration"
+              desc="Government recognition for your business with added benefits."
             />
             <OtherService
-              title="Contact"
-              to="/contact"
-              desc="We are just a message away. Reach out to us for any queries or support."
+              title="FSSAI Registration"
+              to="/otherservices/fssai-registration"
+              desc="Essential food license compliance for your business."
+            />
+            <OtherService
+              title="PF Registration"
+              to="/otherservices/pf-registration"
+              desc="Ensure employee retirement benefits and legal coverage."
+            />
+            <OtherService
+              title="ESI Registration"
+              to="/otherservices/esi-registration"
+              desc="Provide employee health and medical security."
             />
           </div>
         </div>
