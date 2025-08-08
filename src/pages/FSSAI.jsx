@@ -21,10 +21,7 @@ export default function FSSAIRegistration() {
         <li>Documentation and expert support</li>
         <li>Timely filing and certificate issuance</li>
       </ul>
-
-      <h2 className="text-2xl font-semibold text-green-700 mt-8 mb-4">Pricing</h2>
-      <p className="text-gray-800 font-medium">Starting at ₹1499/- only (all inclusive)</p>
-
+      
       <div className="mt-10">
         <a href="/contact">
           <button className="bg-green-600 hover:bg-green-700 text-white text-lg px-6 py-3 rounded-xl shadow-md">
