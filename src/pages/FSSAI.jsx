@@ -8,7 +8,7 @@ export default function FSSAIRegistration() {
       </p>
 
       <h2 className="text-2xl font-semibold text-green-700 mt-8 mb-4">Who Needs It?</h2>
-      <ul className="list-disc text-gray-700">
+      <ul className="list-disc pl-5 text-gray-700">
         <li>Restaurants, cloud kitchens, and cafes</li>
         <li>Food manufacturers and repackagers</li>
         <li>Food transporters and distributors</li>
@@ -16,7 +16,7 @@ export default function FSSAIRegistration() {
       </ul>
 
       <h2 className="text-2xl font-semibold text-green-700 mt-8 mb-4">What's Included?</h2>
-      <ul className="list-disc text-gray-700">
+      <ul className="list-disc pl-5 text-gray-700">
         <li>FSSAI Basic / State / Central Registration</li>
         <li>Documentation and expert support</li>
         <li>Timely filing and certificate issuance</li>
