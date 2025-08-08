@@ -58,8 +58,7 @@ export default function Contact() {
     📧 Email us at <a href="mailto:support@taxzoom.in" className="text-blue-600 hover:underline">support@taxzoom.in</a>
   </p>
   <p className="text-lg text-gray-700">
-    📍 Visit us at: <br />
-    New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124
+    📍 Visit us at : New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124
   </p>
 </div>
     </section>
