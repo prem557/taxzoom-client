@@ -8,19 +8,19 @@ export default function FSSAIRegistration() {
       </p>
 
       <h2 className="text-2xl font-semibold text-green-700 mt-8 mb-4">Who Needs It?</h2>
-      <center><ul className="list-disc list-inside space-y-2 text-gray-800 text-left">
+      <ul className="list-disc list-inside space-y-2 text-gray-800">
         <li>Restaurants, cloud kitchens, and cafes</li>
         <li>Food manufacturers and repackagers</li>
         <li>Food transporters and distributors</li>
         <li>Online food delivery businesses</li>
-      </ul></center>
+      </ul>
 
       <h2 className="text-2xl font-semibold text-green-700 mt-8 mb-4">What's Included?</h2>
-      <center><ul className="list-disc list-inside space-y-2 text-gray-800 text-left">
+     <ul className="list-disc list-inside space-y-2 text-gray-800">
         <li>FSSAI Basic / State / Central Registration</li>
         <li>Documentation and expert support</li>
         <li>Timely filing and certificate issuance</li>
-      </ul></center>
+      </ul>
 
       <h2 className="text-2xl font-semibold text-green-700 mt-8 mb-4">Pricing</h2>
       <p className="text-gray-800 font-medium">Starting at ₹1499/- only (all inclusive)</p>
