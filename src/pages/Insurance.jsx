@@ -5,7 +5,7 @@ export default function Insurance() {
       <p className="text-gray-700 mb-6">
         Choose from a variety of insurance options that suit your needs. We guide you end-to-end.
       </p>
-      <ul className="list-disc ml-6 text-gray-600 space-y-2">
+      <ul className="list-disc list-inside text-gray-600 space-y-2">
         <li>Bike Insurance</li>
         <li>Car Insurance</li>
         <li>Health Insurance</li>
