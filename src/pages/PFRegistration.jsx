@@ -8,14 +8,14 @@ export default function PFRegistration() {
       </p>
 
       <h2 className="text-2xl font-semibold text-blue-700 mt-8 mb-4">Why PF Registration?</h2>
-      <ul className="list-disc pl-6 text-gray-700 space-y-2">
+      <ul className="list-disc list-inside text-gray-700 space-y-2">
         <li>Legal compliance with EPFO norms</li>
         <li>Employee welfare and trust</li>
         <li>Simplified retirement benefit management</li>
       </ul>
 
       <h2 className="text-2xl font-semibold text-blue-700 mt-8 mb-4">What's Included?</h2>
-      <ul className="list-disc pl-6 text-gray-700 space-y-2">
+      <ul className="list-disc list-inside text-gray-700 space-y-2">
         <li>PF Establishment Code Registration</li>
         <li>UAN generation & linking</li>
         <li>Expert guidance and documentation support</li>

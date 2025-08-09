@@ -8,7 +8,7 @@ export default function MSMERegistration() {
       </p>
 
       <h2 className="text-2xl font-semibold text-blue-700 mt-8 mb-4">Why MSME Registration?</h2>
-      <ul className="list-disc pl-6 text-gray-700 space-y-2">
+      <ul className="list-disc list-inside text-gray-700 space-y-2">
         <li>Avail loans at lower interest rates</li>
         <li>Get access to subsidies and government schemes</li>
         <li>Receive protection against delayed payments</li>
@@ -16,14 +16,11 @@ export default function MSMERegistration() {
       </ul>
 
       <h2 className="text-2xl font-semibold text-blue-700 mt-8 mb-4">What's Included?</h2>
-      <ul className="list-disc pl-6 text-gray-700 space-y-2">
+      <ul className="list-disc list-inside text-gray-700 space-y-2">
         <li>Consultation & eligibility check</li>
         <li>Document preparation & submission</li>
         <li>Udyam certificate delivery</li>
       </ul>
-
-      <h2 className="text-2xl font-semibold text-blue-700 mt-8 mb-4">Pricing</h2>
-      <p className="text-gray-800 font-medium">Starting at ₹999/- only (all inclusive)</p>
 
       <div className="mt-10">
         <a href="/contact">
