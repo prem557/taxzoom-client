@@ -5,9 +5,6 @@ import {
   FaUserShield,
   FaBuilding,
   FaCertificate,
-  FaBriefcase,
-  FaRupeeSign,
-  FaShieldAlt,
 } from 'react-icons/fa';
 
 export default function Home() {
@@ -66,12 +63,65 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ✅ Core Services */}
+      <section className="space-y-10">
+        <h2 className="text-3xl font-bold text-center text-blue-800">Core Service Categories</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <ServiceCard
+            icon={<FaFileInvoiceDollar />}
+            title="ITR Filing"
+            description="Fast, secure, and affordable income tax return filing for all types of taxpayers."
+            to="/services/itr-filing"
+          />
+          <ServiceCard
+            icon={<FaUserShield />}
+            title="TDS Return Filing"
+            description="Accurate TDS filing services for businesses, contractors, and freelancers."
+            to="/services/tds-return"
+          />
+          <ServiceCard
+            icon={<FaBusinessTime />}
+            title="GST Services"
+            description="Hassle-free GST registration, return filing, and compliance handled by experts."
+            to="/services/gst-filing"
+          />
+          <ServiceCard
+            icon={<FaBuilding />}
+            title="MSME/Udyam Registration"
+            description="Get official recognition and benefits for your business under MSME."
+            to="/services/msme-udyam-registration"
+          />
+          <ServiceCard
+            icon={<FaCertificate />}
+            title="FSSAI Certification"
+            description="Apply for new FSSAI food license or renew it effortlessly."
+            to="/services/fssai"
+          />
+          <ServiceCard
+            icon={<FaUserShield />}
+            title="PF & ESI Registration"
+            description="Secure employee welfare compliance with PF and ESI registration."
+            to="/services/pf-registration"
+          />
+        </div>
+      </section>
+
       {/* ✅ Other Services */}
       <section className="bg-gray-100 py-12 px-6 rounded-xl shadow-md">
         <div className="max-w-6xl mx-auto text-center space-y-6">
           <h2 className="text-3xl font-bold text-blue-800">Explore Other Key Services</h2>
           <p className="text-gray-600">Important compliance & registration services for your growing business.</p>
           <div className="grid md:grid-cols-2 gap-6 text-left">
+            <OtherService
+              title="Loans"
+              to="/services/loans"
+              desc="Get support for Home, Business, Education, and Personal loans."
+            />
+            <OtherService
+              title="Insurance"
+              to="/services/insurance"
+              desc="Buy or renew Car, Bike, Health, or Travel insurance with guidance."
+            />
             <OtherService
               title="MSME / Udyam Registration"
               to="/services/msme-udyam-registration"
@@ -92,16 +142,6 @@ export default function Home() {
               to="/services/esi-registration"
               desc="Provide employee health and medical security."
             />
-            <OtherService
-              title="Loans"
-              to="/services/loans"
-              desc="Secured & unsecured loans: Home, Gold, LAP, Personal, Education, Business."
-              />
-               <OtherService
-              title="Insurance"
-              to="/services/insurance"
-              desc="Bike, Car, Health & Travel insurance—compare & buy."
-              />
           </div>
         </div>
       </section>
