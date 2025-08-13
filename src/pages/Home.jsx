@@ -95,12 +95,12 @@ export default function Home() {
             <OtherService
               title="Loans"
               to="/services/loans"
-              desc="Provide different types of loans."
+              desc="Secured & unsecured loans: Home, Gold, LAP, Personal, Education, Business."
               />
                <OtherService
               title="Insurance"
               to="/services/insurance"
-              desc="Provide different types of insurance."
+              desc="Bike, Car, Health & Travel insurance—compare & buy."
               />
           </div>
         </div>
