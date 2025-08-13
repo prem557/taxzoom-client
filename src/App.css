@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+/* Clean, tight bullet list styling */
+ul.list-disc {
+  list-style-position: inside;
+  margin-left: 1rem; /* Slight left spacing */
+}
+
+ul.list-disc li {
+  margin-bottom: 0.25rem; /* Reduce vertical gap between items */
+}
