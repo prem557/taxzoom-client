@@ -127,26 +127,28 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-blue-800">Explore Other Key Services</h2>
           <p className="text-gray-600">Important compliance & registration services for your growing business.</p>
           <div className="grid md:grid-cols-2 gap-6 text-left">
-            <OtherService
-              title="MSME / Udyam Registration"
-              to="/otherservices/msme-registration"
-              desc="Government recognition for your business with added benefits."
-            />
-            <OtherService
-              title="FSSAI Registration"
-              to="/otherservices/fssai-registration"
-              desc="Essential food license compliance for your business."
-            />
-            <OtherService
-              title="PF Registration"
-              to="/otherservices/pf-registration"
-              desc="Ensure employee retirement benefits and legal coverage."
-            />
-            <OtherService
-              title="ESI Registration"
-              to="/otherservices/esi-registration"
-              desc="Provide employee health and medical security."
-            />
+            
+<OtherService
+  title="MSME / Udyam Registration"
+  to="/services/msme-udyam-registration"
+  desc="Government recognition for your business with added benefits."
+/>
+<OtherService
+  title="FSSAI Registration"
+  to="/services/fssai"
+  desc="Essential food license compliance for your business."
+/>
+<OtherService
+  title="PF Registration"
+  to="/services/pf-registration"
+  desc="Ensure employee retirement benefits and legal coverage."
+/>
+<OtherService
+  title="ESI Registration"
+  to="/services/esi-registration"
+  desc="Provide employee health and medical security."
+/>
+
           </div>
         </div>
       </section>
