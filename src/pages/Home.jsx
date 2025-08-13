@@ -92,6 +92,16 @@ export default function Home() {
               to="/services/esi-registration"
               desc="Provide employee health and medical security."
             />
+            <OtherService
+              title="Loans"
+              to="/services/loans"
+              desc="Provide different types of loans."
+              />
+               <OtherService
+              title="Insurance"
+              to="/services/insurance"
+              desc="Provide different types of insurance."
+              />
           </div>
         </div>
       </section>
