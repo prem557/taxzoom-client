@@ -92,7 +92,7 @@ export default function Contact() {
         </p>
 
         {/* Location */}
-<p className="text-lg text-gray-700 flex items-start justify-center gap-2 max-w-2xl mx-auto text-center">
+<p className="text-lg text-gray-700 flex items-center justify-center gap-0 max-w-2xl mx-auto text-center">
   <FaMapMarkerAlt className="text-red-500 mt-1 flex-shrink-0" size={20} />
   <span>
     New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124
