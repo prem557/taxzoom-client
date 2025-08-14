@@ -20,6 +20,8 @@ export default function Home() {
         <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
           End-to-end support for all your tax, legal, and registration needs — trusted by thousands across India.
         </p>
+        <br>
+        </br>
         <Link to="/services">
           <button className="bg-blue-700 hover:bg-blue-800 text-white font-semibold px-8 py-3 rounded-xl shadow-lg transition">
             Explore Our Services
