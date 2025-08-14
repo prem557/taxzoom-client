@@ -7,7 +7,7 @@ export default function Contact() {
         Contact Us
       </h1>
       <p className="text-center text-lg text-gray-600 mb-10">
-        We’re here to answer your questions and assist you with our services. Get in touch with us today.
+        We’re here to help! Reach out to us via phone, WhatsApp, or email, and we’ll respond promptly.
       </p>
 
       {/* Contact Form */}
@@ -57,18 +57,27 @@ export default function Contact() {
       </form>
 
       {/* Contact Information */}
-      <div className="text-center mt-10 space-y-4">
-        <p className="text-lg text-gray-700 flex items-center justify-center gap-2">
-          <FaPhoneAlt className="text-blue-600" /> <FaWhatsapp className="text-green-500" />
-          <span>Call or WhatsApp us directly at</span>
+      <div className="mt-12 text-center space-y-6">
+        
+        {/* Call & WhatsApp */}
+        <div className="flex justify-center gap-4">
           <a
             href="tel:+918210097911"
-            className="text-blue-600 hover:underline font-medium"
+            className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition"
           >
-            +91 82100 97911
+            <FaPhoneAlt /> Call Us
           </a>
-        </p>
+          <a
+            href="https://wa.me/918210097911"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
+          >
+            <FaWhatsapp /> WhatsApp
+          </a>
+        </div>
 
+        {/* Email */}
         <p className="text-lg text-gray-700 flex items-center justify-center gap-2">
           <FaEnvelope className="text-blue-600" />
           <span>Email:</span>
@@ -80,12 +89,11 @@ export default function Contact() {
           </a>
         </p>
 
-        <p className="text-lg text-gray-700 flex items-center justify-center gap-2">
+        {/* Location */}
+        <p className="text-lg text-gray-700 flex items-center justify-center gap-2 max-w-lg mx-auto">
           <FaMapMarkerAlt className="text-red-500" />
-          <span>
-            New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu,
-            Jharkhand PIN- 822124
-          </span>
+          New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand
+          PIN- 822124
         </p>
       </div>
     </section>
