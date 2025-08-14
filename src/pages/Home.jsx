@@ -99,11 +99,17 @@ export default function Home() {
           />
           <ServiceCard
             icon={<FaUserShield />}
-            title="PF & ESI Registration"
-            description="Secure employee welfare compliance with PF and ESI registration."
+            title="PF Registration"
+            description="Ensure employee retirement benefits and legal coverage."
             to="/services/pf-registration"
           />
-        </div>
+          <ServiceCard
+            icon={<FaUserShield />}
+            title="ESI Registration"
+            description="Provide employee health and medical security."
+            to="/services/esi-registration"
+            />
+         </div>
       </section>
 
       {/* ✅ Other Services */}
