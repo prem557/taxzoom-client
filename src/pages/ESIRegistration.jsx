@@ -21,9 +21,6 @@ export default function ESIRegistration() {
         <li>Consultation and documentation support</li>
       </ul>
 
-      <h2 className="text-2xl font-semibold text-blue-700 mt-8 mb-4">Pricing</h2>
-      <p className="text-gray-800 font-medium">Flat ₹1799/- (all inclusive)</p>
-
       <div className="mt-10">
         <a href="/contact">
           <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl shadow-md">
