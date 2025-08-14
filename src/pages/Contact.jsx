@@ -51,9 +51,24 @@ export default function Contact() {
       </form>
 
       <div className="text-center mt-8 space-y-2">
-  <p className="text-lg text-gray-700">
-    📞 Call us directly at <a href="tel:+918210097911" className="text-blue-600 hover:underline">8210097911</a>
-  </p>
+  <p className="text-lg text-gray-700 flex items-center space-x-4">
+  <a
+    href="tel:+918210097911"
+    className="flex items-center text-blue-600 hover:underline"
+  >
+    📞 Call: 8210097911
+  </a>
+  <span>|</span>
+  <a
+    href="https://wa.me/918210097911"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center text-green-600 hover:underline"
+  >
+    💬 WhatsApp
+  </a>
+</p>
+
   <p className="text-lg text-gray-700">
     📧 Email us at <a href="mailto:support@taxzoom.in" className="text-blue-600 hover:underline">support@taxzoom.in</a>
   </p>
