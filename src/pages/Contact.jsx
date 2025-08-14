@@ -59,6 +59,7 @@ export default function Contact() {
       {/* Contact Information */}
       <div className="mt-12 text-center space-y-6">
         
+            
         {/* Call & WhatsApp */}
         <div className="flex justify-center gap-4">
           <a
@@ -76,6 +77,7 @@ export default function Contact() {
             <FaWhatsapp /> WhatsApp
           </a>
         </div>
+
 
         {/* Email */}
         <p className="text-lg text-gray-700 flex items-center justify-center gap-2">
