@@ -1,11 +1,31 @@
-export default function ITRFiling() {
+import React from "react";
+
+const ITRFiling = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h2 className="text-3xl font-bold mb-4 text-blue-800">Fast ITR Filing</h2>
-      <p className="text-gray-700 leading-relaxed">
-        Get your Income Tax Return filed accurately with expert CA review, maximum refund assurance, and 100% compliance.
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold text-green-700 mb-6">ITR Filing</h1>
+      <ul className="list-disc pl-6 space-y-2 text-gray-700">
+        <li>Salaried Individuals</li>
+        <li>Self-Employed Professionals</li>
+        <li>Business Owners (SMEs, MSMEs, ERP Users)</li>
+        <li>Stocks, Crypto & Investment Income</li>
+        <li>Revised ITR Filing</li>
+        <li>Belated ITR Filing</li>
+      </ul>
+
+      <p className="mt-6 text-gray-700">
+        Explain types of ITR with the help of the given below URL:
       </p>
-      {/* Add a CTA button or form if needed */}
+      <a
+        href="https://www.taxbuddy.com/income-tax-efiling"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline"
+      >
+        https://www.taxbuddy.com/income-tax-efiling
+      </a>
     </div>
   );
-}
+};
+
+export default ITRFiling;

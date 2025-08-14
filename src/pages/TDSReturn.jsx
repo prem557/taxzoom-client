@@ -6,40 +6,32 @@ export default function TDSReturn() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 text-gray-800">
       <h1 className="text-4xl font-bold text-blue-900 mb-6">
-        TDS Return Filing Services
+        TDS Return Filing
       </h1>
       <p className="text-lg text-gray-600 mb-8">
-        We offer expert TDS return filing services for a wide range of income categories, ensuring timely compliance and peace of mind.
+        We provide professional TDS return filing services for the following categories:
       </p>
 
       <div className="space-y-6">
         <ServiceBlock
-          title="Salary Income"
-          description="File TDS returns for salaried employees as per Section 192. We handle all documentation and e-filing."
+          title="Salary income"
+          description="File TDS returns for salaried individuals as per applicable income tax provisions."
         />
         <ServiceBlock
-          title="Interest from Securities"
-          description="Comply with Section 193 for interest on securities. Accurate calculation and TDS deduction handled end-to-end."
+          title="Income on securities"
+          description="Accurate TDS filing for income earned on various securities."
         />
         <ServiceBlock
-          title="Lottery, Game, or Puzzle Winnings"
-          description="Section 194B mandates TDS on winnings. We ensure correct deduction and timely return submission."
+          title="Insurance commissions"
+          description="Manage TDS filing for commissions received from insurance activities."
         />
         <ServiceBlock
-          title="Winnings from Horse Races"
-          description="Manage TDS under Section 194BB for any horse race winnings with expert guidance."
+          title="Payouts towards NSC"
+          description="Handle TDS requirements for payouts related to National Savings Certificates."
         />
         <ServiceBlock
-          title="Payments to Contractors"
-          description="Section 194C applies for all contractor payments. Stay compliant and avoid notices."
-        />
-        <ServiceBlock
-          title="Professional or Technical Fees"
-          description="TDS under Section 194J for professional services like legal, IT, etc. filed with accuracy."
-        />
-        <ServiceBlock
-          title="Rent Payments"
-          description="Section 194I covers rent TDS. We support landlord & tenant-side documentation."
+          title="Earnings from winning horse races, lotteries, puzzles, and similar sources"
+          description="Ensure compliance for TDS deductions on winnings from these sources."
         />
       </div>
 
