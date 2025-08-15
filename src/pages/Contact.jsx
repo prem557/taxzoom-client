@@ -58,14 +58,13 @@ export default function Contact() {
 
       {/* Contact Information */}
       <div className="mt-12 text-center space-y-6">
-        
         {/* Call & WhatsApp Buttons */}
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="tel:+918210097911"
             className="flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-full shadow-md hover:bg-blue-700 transition text-lg"
           >
-            <FaPhoneAlt /> +91 82100 97911
+            <FaPhoneAlt /> +91&nbsp;82100&nbsp;97911
           </a>
           <a
             href="https://wa.me/918210097911"
@@ -89,12 +88,12 @@ export default function Contact() {
         </p>
 
         {/* Location */}
-        <p className="text-lg text-gray-700 flex items-start justify-center gap-0 max-w-2xl mx-auto">
-          <FaMapMarkerAlt className="text-red-500" size={20} />
+        <div className="flex items-center justify-center gap-3 max-w-2xl mx-auto text-lg text-gray-700 text-center">
+          <FaMapMarkerAlt className="text-red-500 flex-shrink-0" size={20} />
           <span>
             New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124
           </span>
-        </p>
+        </div>
       </div>
     </section>
   );
