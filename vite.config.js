@@ -1,13 +1,15 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Use "/" for Vercel root deployments. If you ever host at a subpath, change it then.
 export default defineConfig({
+  base: '/',               // <- IMPORTANT: ensure this is "/" for root deploys
   plugins: [react()],
   build: {
-    outDir: 'dist',
+    outDir: 'dist'
   },
   server: {
-    historyApiFallback: true,
-  },
-});
+    // dev-only options (no-op on Vercel)
+  }
+})
