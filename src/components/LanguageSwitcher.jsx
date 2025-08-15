@@ -1,14 +1,15 @@
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FaGlobe } from "react-icons/fa";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef();
 
   const languages = [
     { code: "en", label: "English", flag: "🇬🇧" },
-    { code: "hi", label: "हिन्दी", flag: "🇮🇳" }
+    { code: "hi", label: "हिन्दी", flag: "🇮🇳" },
   ];
 
   const changeLanguage = (lng) => {
@@ -16,20 +17,32 @@ export default function LanguageSwitcher() {
     setIsOpen(false);
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   return (
-    <div className="relative inline-block text-left">
+    <div ref={dropdownRef} className="relative inline-block text-left">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-full shadow hover:bg-gray-200 transition"
+        aria-haspopup="true"
+        aria-expanded={isOpen}
       >
         <FaGlobe className="text-blue-600" />
         <span className="font-medium">
-          {languages.find((l) => l.code === i18n.language)?.label || "English"}
+          {languages.find((l) => i18n.language.startsWith(l.code))?.label || "English"}
         </span>
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-100 z-50">
+        <div className="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-100 z-50 transition-transform scale-100 transform origin-top">
           {languages.map((lang) => (
             <button
               key={lang.code}
