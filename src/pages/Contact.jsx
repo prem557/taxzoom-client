@@ -3,11 +3,11 @@ import { FaPhoneAlt, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from "react-icons/
 export default function Contact() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-blue-800 mb-6">
+      <h1 className="text-4xl font-bold text-center text-blue-800 mb-4">
         Contact Us
       </h1>
       <p className="text-center text-lg text-gray-600 mb-10">
-        We’re here to help! Contact us directly via phone, WhatsApp, or email — and we’ll get back to you promptly.
+        We’re here to help! Reach us instantly via call, WhatsApp, or email.
       </p>
 
       {/* Contact Form */}
@@ -56,29 +56,30 @@ export default function Contact() {
         </button>
       </form>
 
-      {/* Call & WhatsApp Buttons with Number */}
-<div className="flex flex-wrap justify-center gap-4">
-  <a
-    href="tel:+918210097911"
-    className="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-blue-700 transition text-lg"
-  >
-    <FaPhoneAlt /> +91 82100 97911
-  </a>
-  <a
-    href="https://wa.me/918210097911"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-green-600 transition text-lg"
-  >
-    <FaWhatsapp /> WhatsApp
-  </a>
-</div>
-
+      {/* Contact Information */}
+      <div className="mt-12 text-center space-y-6">
+        
+        {/* Call & WhatsApp Buttons */}
+        <div className="flex flex-wrap justify-center gap-4">
+          <a
+            href="tel:+918210097911"
+            className="flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-full shadow-md hover:bg-blue-700 transition text-lg"
+          >
+            <FaPhoneAlt /> +91 82100 97911
+          </a>
+          <a
+            href="https://wa.me/918210097911"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-green-500 text-white px-6 py-2 rounded-full shadow-md hover:bg-green-600 transition text-lg"
+          >
+            <FaWhatsapp /> WhatsApp
+          </a>
+        </div>
 
         {/* Email */}
         <p className="text-lg text-gray-700 flex items-center justify-center gap-2">
           <FaEnvelope className="text-blue-600" />
-          <span>Email:</span>
           <a
             href="mailto:taxzoomconsulting@gmail.com"
             className="text-blue-600 hover:underline font-medium"
@@ -88,7 +89,7 @@ export default function Contact() {
         </p>
 
         {/* Location */}
-        <p className="text-lg text-gray-700 flex items-center justify-center gap-2 max-w-2xl mx-auto text-center">
+        <p className="text-lg text-gray-700 flex items-center justify-center gap-3 max-w-2xl mx-auto">
           <FaMapMarkerAlt className="text-red-500" size={20} />
           <span>
             New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124
