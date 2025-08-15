@@ -26,7 +26,7 @@ import ESIRegistration from './pages/ESIRegistration.jsx';
 import './index.css';
 import './i18n'; 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
     <App />
