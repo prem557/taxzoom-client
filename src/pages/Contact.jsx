@@ -56,31 +56,24 @@ export default function Contact() {
         </button>
       </form>
 
-      {/* Contact Information */}
-      <div className="mt-12 text-center space-y-6">
-        
-        {/* Visible Phone Number */}
-        <p className="text-lg font-semibold text-gray-800">
-          📞 <span className="text-blue-700">+91 82100 97911</span>
-        </p>
+      {/* Call & WhatsApp Buttons with Number */}
+<div className="flex flex-wrap justify-center gap-4">
+  <a
+    href="tel:+918210097911"
+    className="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-blue-700 transition text-lg"
+  >
+    <FaPhoneAlt /> +91 82100 97911
+  </a>
+  <a
+    href="https://wa.me/918210097911"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-green-600 transition text-lg"
+  >
+    <FaWhatsapp /> WhatsApp
+  </a>
+</div>
 
-        {/* Call & WhatsApp Buttons */}
-        <div className="flex flex-wrap justify-center gap-4">
-          <a
-            href="tel:+918210097911"
-            className="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-blue-700 transition text-lg"
-          >
-            <FaPhoneAlt /> Call Us
-          </a>
-          <a
-            href="https://wa.me/918210097911"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-green-600 transition text-lg"
-          >
-            <FaWhatsapp /> WhatsApp
-          </a>
-        </div>
 
         {/* Email */}
         <p className="text-lg text-gray-700 flex items-center justify-center gap-2">
