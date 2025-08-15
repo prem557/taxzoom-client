@@ -12,18 +12,6 @@ const ITRFiling = () => {
         <li>Revised ITR Filing</li>
         <li>Belated ITR Filing</li>
       </ul>
-
-      <p className="mt-6 text-gray-700">
-        Explain types of ITR with the help of the given below URL:
-      </p>
-      <a
-        href="https://www.taxbuddy.com/income-tax-efiling"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 underline"
-      >
-        https://www.taxbuddy.com/income-tax-efiling
-      </a>
     </div>
   );
 };

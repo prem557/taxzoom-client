@@ -7,7 +7,7 @@ export default function Contact() {
         Contact Us
       </h1>
       <p className="text-center text-lg text-gray-600 mb-10">
-        We’re here to help! Reach out to us via phone, WhatsApp, or email, and we’ll respond promptly.
+        We’re here to help! Contact us directly via phone, WhatsApp, or email — and we’ll get back to you promptly.
       </p>
 
       {/* Contact Form */}
@@ -59,12 +59,16 @@ export default function Contact() {
       {/* Contact Information */}
       <div className="mt-12 text-center space-y-6">
         
-            
-        {/* Call & WhatsApp */}
-        <div className="flex justify-center gap-4">
+        {/* Visible Phone Number */}
+        <p className="text-lg font-semibold text-gray-800">
+          📞 <span className="text-blue-700">+91 82100 97911</span>
+        </p>
+
+        {/* Call & WhatsApp Buttons */}
+        <div className="flex flex-wrap justify-center gap-4">
           <a
             href="tel:+918210097911"
-            className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition"
+            className="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full shadow-md hover:bg-blue-700 transition text-lg"
           >
             <FaPhoneAlt /> Call Us
           </a>
@@ -72,34 +76,32 @@ export default function Contact() {
             href="https://wa.me/918210097911"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
+            className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-green-600 transition text-lg"
           >
             <FaWhatsapp /> WhatsApp
           </a>
         </div>
-
 
         {/* Email */}
         <p className="text-lg text-gray-700 flex items-center justify-center gap-2">
           <FaEnvelope className="text-blue-600" />
           <span>Email:</span>
           <a
-            href="mailto:support@taxzoom.in"
+            href="mailto:taxzoomconsulting@gmail.com"
             className="text-blue-600 hover:underline font-medium"
           >
-            support@taxzoom.in
+            taxzoomconsulting@gmail.com
           </a>
         </p>
 
         {/* Location */}
-<p className="text-lg text-gray-700 flex items-start justify-center gap-0 max-w-2xl mx-auto text-center">
-  <FaMapMarkerAlt className="text-red-500 flex-shrink-0" size={20} />
-  <span>
-    New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124
-  </span>
-</p>
-
-    </div>
+        <p className="text-lg text-gray-700 flex items-center justify-center gap-2 max-w-2xl mx-auto text-center">
+          <FaMapMarkerAlt className="text-red-500" size={20} />
+          <span>
+            New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124
+          </span>
+        </p>
+      </div>
     </section>
   );
 }
