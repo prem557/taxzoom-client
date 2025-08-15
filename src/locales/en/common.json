@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Home",
+    "itr": "ITR Filing",
+    "gst": "GST Filing",
+    "otherServices": "Other Services",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We’re here to help! Contact us via phone, WhatsApp, or email — we’ll respond promptly.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePh": "Your name",
+      "emailPh": "you@example.com",
+      "messagePh": "How can we help you?",
+      "submit": "Send Message"
+    },
+    "phoneVisible": "+91 82100 97911",
+    "phoneLabel": "Call Us",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email:",
+    "email": "taxzoomconsulting@gmail.com",
+    "address": "New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124"
+  }
+}
