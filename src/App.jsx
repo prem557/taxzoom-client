@@ -18,15 +18,14 @@ function App() {
           </Link>
 
           {/* Nav */}
-          <nav className="space-x-6 hidden md:flex">
-            <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-            <Link to="/services/itr-filing" className="text-gray-700 hover:text-blue-600 font-medium">ITR Filing</Link>
-            <Link to="/services/gst-filing" className="text-gray-700 hover:text-blue-600 font-medium">GST Filing & New Registration</Link>
-            <Link to="/otherservices" className="text-gray-700 hover:text-blue-600 font-medium">Other Services</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link>
-          </nav>
-
+           <nav className="space-x-6 hidden md:flex items-center">
+    <Link to="/" className="...">{t('nav.home')}</Link>
+    <Link to="/services/itr-filing" className="...">{t('nav.itr')}</Link>
+    <Link to="/services/gst-filing" className="...">{t('nav.gst')}</Link>
+    <Link to="/otherservices" className="...">{t('nav.otherServices')}</Link>
+    <Link to="/contact" className="...">{t('nav.contact')}</Link>
+    <Link to="/about" className="...">{t('nav.about')}</Link>
+</nav>
           {/* Language Switcher */}
           <div className="ml-4">
             <LanguageSwitcher />
