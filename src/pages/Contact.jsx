@@ -1,6 +1,7 @@
 import { FaPhoneAlt, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <section className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold text-center text-blue-800 mb-4">
@@ -88,7 +89,7 @@ export default function Contact() {
         </p>
 
         {/* Location */}
-        <div className="flex items-center justify-center gap-3 max-w-2xl mx-auto text-lg text-gray-700 text-center">
+        <div className="flex items-start justify-center gap-0 max-w-2xl mx-auto text-lg text-gray-700 text-center">
           <FaMapMarkerAlt className="text-red-500 flex-shrink-0" size={20} />
           <span>
             New Colony, Near Prakash Eye Care, Po Rehla, Dist- Palamu, Jharkhand PIN- 822124

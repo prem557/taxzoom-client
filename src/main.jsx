@@ -24,10 +24,12 @@ import PFRegistration from './pages/PFRegistration.jsx';
 import ESIRegistration from './pages/ESIRegistration.jsx';
 
 import './index.css';
+import './i18n'; 
 
-createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
+    <App />
     <ScrollToTop />
 
       <Routes>
