@@ -1,11 +1,7 @@
 import { Outlet, Link } from 'react-router-dom';
-import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "./components/LanguageSwitcher";
 import './App.css';
 
 function App() {
-  const { t } = useTranslation();
-
   return (
     <div className="bg-gray-50 min-h-screen text-gray-900 font-sans">
       {/* Navbar */}
@@ -26,11 +22,6 @@ function App() {
             <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
             <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link>
           </nav>
-
-          {/* Language Switcher */}
-          <div className="ml-4">
-            <LanguageSwitcher />
-          </div>
         </div>
       </header>
 
