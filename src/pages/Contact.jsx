@@ -1,7 +1,6 @@
 import { FaPhoneAlt, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {
-  const { t } = useTranslation();
   return (
     <section className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold text-center text-blue-800 mb-4">
