@@ -32,7 +32,8 @@ function App() {
 
       {/* Footer */}
       <footer className="text-center text-sm py-6 text-gray-500 border-t">
-        🧾 TaxZoom is ALIVE with Tailwind + Vite!<br />
+        🧾 TaxZoom is ALIVE with Tailwind + Vite!
+        <br />
         Welcome to your modern taxation website
       </footer>
     </div>

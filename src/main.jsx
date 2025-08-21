@@ -28,9 +28,7 @@ import './index.css';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
       <ScrollToTop />
-
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
