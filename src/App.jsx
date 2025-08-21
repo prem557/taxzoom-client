@@ -9,8 +9,12 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="TaxZoom Logo" className="h-15 w-auto object-contain" />
-            <span className="text-3xl sm:text-4xl font-bold text-orange-600">TaxZoom</span>
+            <img 
+              src="/logo.png" 
+              alt="TaxZoom Logo" 
+              className="h-12 sm:h-14 w-auto object-contain" 
+            />
+            <span className="text-2xl sm:text-3xl font-bold text-orange-600">TaxZoom</span>
           </Link>
 
           {/* Nav */}
