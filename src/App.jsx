@@ -12,9 +12,9 @@ function App() {
             <img 
               src="/logo.png" 
               alt="TaxZoom Logo" 
-              className="h-12 sm:h-14 w-auto object-contain" 
+              className="h-16 sm:h-20 w-auto object-contain" 
             />
-            <span className="text-2xl sm:text-3xl font-bold text-orange-600">TaxZoom</span>
+            <span className="text-3xl sm:text-4xl font-bold text-orange-600">TaxZoom</span>
           </Link>
 
           {/* Nav */}
