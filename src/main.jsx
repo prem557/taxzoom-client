@@ -54,6 +54,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="services/itr-filing" element={<ITRFiling />} />
           <Route path="services/itr-filing/start" element={<ITRStart />} />
           <Route path="services/itr-filing/success" element={<ITRSuccess />} />
+          <Route path="services/itr-filing/form" element={<ITRForm />} />
         </Route>
       </Routes>
     </BrowserRouter>

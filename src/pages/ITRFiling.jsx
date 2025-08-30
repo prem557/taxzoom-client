@@ -11,7 +11,7 @@ const ITRFiling = () => {
           Hassle-free, accurate & professional ITR filing for individuals, businesses, and professionals.
         </p>
         <Link
-          to="/contact"
+          to="/services/itr-filing/form"
           className="mt-6 inline-block bg-white text-green-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition"
         >
           File Your ITR Now
