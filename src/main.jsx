@@ -24,7 +24,7 @@ import PFRegistration from './pages/PFRegistration.jsx';
 import ESIRegistration from './pages/ESIRegistration.jsx';
 import ITRStart from './pages/ITRStart.jsx';
 import ITRSuccess from './pages/ITRSuccess.jsx';
-
+import ITRForm from './pages/ITRForm.jsx';
 
 import './index.css';
 
