@@ -22,6 +22,9 @@ import MSMEUdyamRegistration from './pages/MSMEUdyam.jsx';
 import FSSAI from './pages/FSSAI.jsx';
 import PFRegistration from './pages/PFRegistration.jsx';
 import ESIRegistration from './pages/ESIRegistration.jsx';
+import ITRStart from './pages/ITRStart.jsx';
+import ITRSuccess from './pages/ITRSuccess.jsx';
+
 
 import './index.css';
 
@@ -48,6 +51,9 @@ createRoot(document.getElementById('root')).render(
           <Route path="about" element={<About />} />
           <Route path="otherservices" element={<OtherServices />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="services/itr-filing" element={<ITRFiling />} />
+          <Route path="services/itr-filing/start" element={<ITRStart />} />
+          <Route path="services/itr-filing/success" element={<ITRSuccess />} />
         </Route>
       </Routes>
     </BrowserRouter>
