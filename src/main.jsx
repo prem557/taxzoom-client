@@ -25,7 +25,6 @@ import ESIRegistration from './pages/ESIRegistration.jsx';
 import ITRStart from './pages/ITRStart.jsx';
 import ITRSuccess from './pages/ITRSuccess.jsx';
 import ITRForm from './pages/ITRForm.jsx';
-import FloatingContact from "./components/FloatingContact";
 
 import './index.css';
 
@@ -33,7 +32,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <ScrollToTop />
-      <FloatingContact />
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
