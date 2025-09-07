@@ -1,6 +1,7 @@
 import { Outlet, Link } from 'react-router-dom';
 import './App.css';
 import FloatingContact from './components/FloatingContact'; 
+
 function App() {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-900 font-sans">
@@ -40,6 +41,7 @@ function App() {
         <br />
         Welcome to your modern taxation website
       </footer>
+      
        <FloatingContact /> 
     </div>
   );
