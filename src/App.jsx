@@ -15,7 +15,7 @@ function App() {
               alt="Tax with PANKAJ"
               className="h-16 sm:h-20 w-auto object-contain" 
             />
-            <span className="text-3xl sm:text-4xl font-bold text-orange-600">TaxZoom</span>
+            <span className="text-3xl sm:text-4xl font-bold text-orange-600">Tax with PANKAJ</span>
           </Link>
 
           {/* Nav */}
