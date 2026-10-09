@@ -11,8 +11,8 @@ function App() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img 
-              src="/logo.png" 
-              alt="TaxZoom Logo" 
+              src="/logo.jpeg"
+              alt="Tax with PANKAJ"
               className="h-16 sm:h-20 w-auto object-contain" 
             />
             <span className="text-3xl sm:text-4xl font-bold text-orange-600">TaxZoom</span>
