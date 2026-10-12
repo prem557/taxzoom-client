@@ -37,7 +37,7 @@ export default function Home() {
         </p>
         <p>
           We are on a mission to make entrepreneurship easier and affordable to millions.
-          <span className="font-semibold text-blue-700"> TaxZoomIndia</span> provides a simple and intuitive platform
+          <span className="font-semibold text-blue-700"> Tax with PANKAJ</span> provides a simple and intuitive platform
           for setting up a business and managing compliance.
         </p>
         <p>
@@ -46,10 +46,10 @@ export default function Home() {
         </p>
       </div>
 
-      {/* ✅ Block 2: About TaxZoom */}
+      {/* ✅ Block 2: About Tax with PANKAJ */}
       <div className="bg-blue-50 border-l-4 border-blue-500 px-6 py-5 rounded-xl shadow-sm text-gray-800">
         <p className="text-base md:text-lg">
-          <strong>TaxZoomIndia</strong> is a portal that provides tax-related services to individuals and businesses.
+          <strong>Tax with PANKAJ</strong> is a portal that provides tax-related services to individuals and businesses.
           Our services include tax planning, filing tax returns, and assisting with tax-related issues. This Portal is
           part of <strong className="text-blue-900">TOTAL TASK SOLUTIONS</strong>.
         </p>
@@ -58,7 +58,7 @@ export default function Home() {
       {/* ✅ Block 3: Ribbon Footer Strip */}
       <div className="text-sm font-semibold text-center rounded-xl overflow-hidden shadow">
         <div className="bg-green-100 text-green-800 py-2 px-4">
-          TaxZoomIndia is a part of <span className="text-green-900">TOTAL TASK SOLUTIONS</span>
+          Tax with PANKAJ is a part of <span className="text-green-900">TOTAL TASK SOLUTIONS</span>
         </div>
         <div className="bg-yellow-100 text-yellow-800 py-2 px-4 border-t border-yellow-300">
           We Support Local for Vocal 🇮🇳

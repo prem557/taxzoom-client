@@ -1,10 +1,10 @@
 export default function About() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-16 text-center">
-      <h1 className="text-4xl font-bold text-blue-800 mb-6">About TaxZoom</h1>
+      <h1 className="text-4xl font-bold text-blue-800 mb-6">About Tax with PANKAJ</h1>
 
       <p className="text-lg text-gray-700 mb-6">
-        TaxZoom is your trusted partner in modern taxation. We help individuals,
+        Tax with PANKAJ is your trusted partner in modern taxation. We help individuals,
         freelancers, and businesses manage their tax filings, registrations,
         and compliance with ease and confidence.
       </p>
